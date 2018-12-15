@@ -3,6 +3,7 @@
 ## Technical Features
 * Python 3.5.x
 * Django 2.1.x
+* Nginx as a server
 * SSL via letsencrypt and certbot
 * GeoDjango for location support
 * Eva an AI
