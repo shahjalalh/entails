@@ -3,6 +3,7 @@
 ## Technical Features
 * Python 3.5.x
 * Django 2.1.x
+* GeoDjango for location support
 * Registration via django-allauth 0.38.0
 * API with django-rest-framework(drf) 3.9.0
 * JSON Web Token (jwt) Authentication support for Django REST Framework
