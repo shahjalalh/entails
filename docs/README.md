@@ -7,6 +7,7 @@
 * Redis for cache
 * SSL via letsencrypt and certbot
 * GeoDjango for location support
+* D3 for data visualization
 * Eva an AI
 * Registration via django-allauth 0.38.0
 * API with django-rest-framework(drf) 3.9.0
@@ -18,3 +19,5 @@
 * Run tests with factory_boy and travis-ci
 * Load testing with locust and jmeter
 * Generates fake data with Faker 
+
+highcharts-react
