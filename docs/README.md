@@ -4,6 +4,7 @@
 * Python 3.5.x
 * Django 2.1.x
 * Nginx as a server
+* Redis for cache
 * SSL via letsencrypt and certbot
 * GeoDjango for location support
 * Eva an AI
