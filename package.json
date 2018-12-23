@@ -1,0 +1,25 @@
+{
+  "name": "entails",
+  "version": "1.0.0",
+  "description": "entails",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahjalalh/entails.git"
+  },
+  "author": "Shahjalal Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahjalalh/entails/issues"
+  },
+  "homepage": "https://github.com/shahjalalh/entails#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
