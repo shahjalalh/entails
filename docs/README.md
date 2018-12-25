@@ -20,4 +20,3 @@
 * Load testing with locust and jmeter
 * Generates fake data with Faker 
 
-highcharts-react
