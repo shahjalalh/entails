@@ -7,17 +7,35 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>{% block title %}{% endblock %}</title>
+        <meta name="description" content="Entails">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Shahjalal Hossain">
         <link rel="stylesheet" href="">
+
+        <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/dist/css/bootstrap.min.css' %}"/>
+
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
+
+        {% block content %}
+        {% endblock %}
+        
         <script src="" async defer></script>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="{% static 'vendor/jquery/dist/jquery.min.js' %}"></script>
+        <script src="{% static 'vendor/popper.js/dist/popper.min.js' %}"></script>
+        <script src="{% static 'vendor/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="{% static 'js/scripts.js' %}"></script>
     </body>
 </html>
