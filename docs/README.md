@@ -12,7 +12,7 @@
 * Registration via django-allauth 0.38.0
 * API with django-rest-framework(drf) 3.9.0
 * JSON Web Token (jwt) Authentication support for Django REST Framework
-* Twitter Bootstrap v4.1.x
+* Twitter Bootstrap
 * Client frontend with Reactjs 16.6.3
 * reactstrap to use React Bootstrap 4 components 
 * Docker support using docker-compose for development and production
